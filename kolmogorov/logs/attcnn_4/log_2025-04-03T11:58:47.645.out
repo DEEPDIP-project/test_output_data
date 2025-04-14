@@ -1,0 +1,367 @@
+┌ Info: Logging to file: /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/logs/attcnn_4/log_2025-04-03T11:58:47.645.out
+│ 
+│ Starting at 2025-04-03T11:58:47.752.
+│ 
+│ Last commit:
+│ 
+│ commit a49d9c4f635eb7f7192781c5d834f4200065cff2
+│ Merge: 1becd29 1b880e0
+│ Author: SCiarella <simoneciarella@gmail.com>
+│ Date:   Sat Mar 29 12:25:25 2025 +0100
+│ 
+│     autopush
+│ 
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/Benchmark.jl:34
+┌ Info: # A-posteriori analysis: Forced turbulence (2D)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:83
+┌ Info: Loading packages
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:87
+┌ Warning: Pkg.installed() is deprecated
+└ @ Pkg /home/simone/.julia/juliaup/julia-1.11.4+0.x64.linux.gnu/share/julia/stdlib/v1.11/Pkg/src/Pkg.jl:787
+┌ Info: CoupledNODE already installed
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:90
+┌ Info: Running on CUDA
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:139
+┌ Info: CUDA device
+│   CUDA.device() = CuDevice(0)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:144
+┌ Info: CUDABackend(false, false)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:157
+┌ Info: Creating DNS trajectory for seed 0x0c6a972a
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x0c6a972a_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x856e446e
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x856e446e_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x557cd282
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x557cd282_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x9638f7b8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x9638f7b8_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x02f51b45
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x02f51b45_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe410a059
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe410a059_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe728d69f
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe728d69f_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x30df42ec
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x30df42ec_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Data generated
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:182
+┌ Info: Data
+│   comptime = 170.9926199913025
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:198
+┌ Info: Data
+│   comptime / 60 = 2.8498769998550415
+│   datasize * 1.0e-9 = 0.0297496
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:199
+┌ Info: Loading AttentionCNN model
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/io.jl:108
+┌ Warning: *** AttentionCNN is using the following device: CUDADevice{Nothing}(nothing) 
+└ @ AttentionLayer /home/simone/.julia/packages/AttentionLayer/BDUTt/src/attention_cnn.jl:60
+┌ Info: Initialized CNN with 21620584 parameters
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:226
+┌ Info: CNN warm up run
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:232
+┌ Info: A priori training
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:253
+┌ Info: Training a-priori
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:74
+┌ Info: Creating a priori callback
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:66
+┌ Info: Training on
+│   dev = CUDADevice{Nothing}(nothing)
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/train.jl:19
+┌ Info: Lux Training started
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/train.jl:28
+┌ Info: [0] Validation Loss: 1.0004692
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [0] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [10] Validation Loss: 0.9992675
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [10] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [20] Validation Loss: 0.99911165
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [20] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [30] Validation Loss: 0.9973847
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [30] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [40] Validation Loss: 0.9944295
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [40] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [50] Validation Loss: 0.9915499
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [50] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [60] Validation Loss: 0.98854005
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [60] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [70] Validation Loss: 0.9870558
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [70] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [80] Validation Loss: 0.98598266
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [80] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [90] Validation Loss: 0.9826284
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [90] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [100] Validation Loss: 0.9757803
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [100] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [110] Validation Loss: 0.9759596
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [110] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [120] Validation Loss: 0.9702422
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [120] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [130] Validation Loss: 0.9643335
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [130] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [140] Validation Loss: 0.96383435
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [140] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [150] Validation Loss: 0.9638427
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [150] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [160] Validation Loss: 0.96361333
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [160] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [170] Validation Loss: 0.95853996
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [170] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [180] Validation Loss: 0.96089965
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [180] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [190] Validation Loss: 0.9655983
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [190] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [200] Validation Loss: 0.97469664
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [200] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [210] Validation Loss: 0.9680215
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [210] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [220] Validation Loss: 1.0498352
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [220] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [230] Validation Loss: 0.9894269
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [230] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [240] Validation Loss: 0.96000797
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [240] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [250] Validation Loss: 0.97774214
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [250] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [260] Validation Loss: 0.99578357
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [260] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [270] Validation Loss: 1.0298607
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [270] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [280] Validation Loss: 1.0567517
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [280] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: [290] Validation Loss: 1.0397627
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [290] Validation Loss (no model): 1.0
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: Saving checkpoint to /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/priortraining/attcnn_4/filter=FaceAverage()_nles=32_checkpoint.jld2.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:60
+┌ Warning: Lux layers are stateless and hence don't participate in device transfers. Apply this function on the parameters and states generated using `LuxCore.setup`.
+└ @ LuxCoreMLDataDevicesExt /home/simone/.julia/packages/LuxCore/Av7WJ/ext/LuxCoreMLDataDevicesExt.jl:10
+┌ Warning: Attempting to store AttentionLayer.var"#31#40"{Int64, Vector{Int64}}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#glorot_uniform_T#38"{DataType}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#34#43"{Vector{Int64}, Int64}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 2
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 3
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 4
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 5
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 6
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 7
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: 
+│   θ_cnn_prior .|> extrema = Tuple{Float32, Float32}[(-0.39715573, 0.37679672);;]
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:284
+┌ Info: Training a-posteriori
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:237
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Info: Creating a posteriori callback
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:63
+┌ Info: Training on
+│   dev = CUDADevice{Nothing}(nothing)
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/train.jl:19
+┌ Info: Lux Training started
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/train.jl:28
+┌ Info: [0] Validation Loss: 6.7165217
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:86
+┌ Info: [0] Validation Loss (no model): 0.05391011
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:88
+┌ Info: Saving checkpoint to /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/posttraining/attcnn_4/projectorder=Last_filter=FaceAverage()_nles=32_checkpoint.jld2.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:60
+┌ Warning: Attempting to store AttentionLayer.var"#31#40"{Int64, Vector{Int64}}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#glorot_uniform_T#38"{DataType}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#34#43"{Vector{Int64}, Int64}.
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Warning: Attempting to store AttentionLayer.var"#36#45".
+│ JLD2 only stores functions by name.
+│  This may not be useful for anonymous functions.
+└ @ JLD2 /home/simone/.julia/packages/JLD2/phaon/src/data/writing_datatypes.jl:447
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 2
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 3
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 4
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 5
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 6
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 7
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: Skipping a-posteriori training for iteration 1 != 8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:343
+┌ Info: 
+│   θ_cnn_post .|> extrema = Tuple{Float32, Float32}[(-0.39815572, 0.37579677);;;]
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:380
+┌ Info: Computing a-priori errors
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:446
+┌ Info: Computing a-posteriori errors
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:488
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Info: Computing divergence and kinetic energy
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:629

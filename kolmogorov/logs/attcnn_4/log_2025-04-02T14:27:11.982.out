@@ -1,0 +1,78 @@
+┌ Info: Logging to file: /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/logs/attcnn_4/log_2025-04-02T14:27:11.982.out
+│ 
+│ Starting at 2025-04-02T14:27:12.084.
+│ 
+│ Last commit:
+│ 
+│ commit a49d9c4f635eb7f7192781c5d834f4200065cff2
+│ Merge: 1becd29 1b880e0
+│ Author: SCiarella <simoneciarella@gmail.com>
+│ Date:   Sat Mar 29 12:25:25 2025 +0100
+│ 
+│     autopush
+│ 
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/Benchmark.jl:34
+┌ Info: # A-posteriori analysis: Forced turbulence (2D)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:83
+┌ Info: Loading packages
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:87
+┌ Warning: Pkg.installed() is deprecated
+└ @ Pkg /home/simone/.julia/juliaup/julia-1.11.4+0.x64.linux.gnu/share/julia/stdlib/v1.11/Pkg/src/Pkg.jl:787
+┌ Info: CoupledNODE already installed
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:90
+┌ Info: Running on CUDA
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:139
+┌ Info: CUDA device
+│   CUDA.device() = CuDevice(0)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:144
+┌ Info: CUDABackend(false, false)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:157
+┌ Info: Creating DNS trajectory for seed 0x0c6a972a
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x0c6a972a_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x856e446e
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x856e446e_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x557cd282
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x557cd282_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x9638f7b8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x9638f7b8_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x02f51b45
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x02f51b45_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe410a059
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe410a059_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe728d69f
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe728d69f_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x30df42ec
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x30df42ec_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Data generated
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:182
+┌ Info: Data
+│   comptime = 170.9926199913025
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:198
+┌ Info: Data
+│   comptime / 60 = 2.8498769998550415
+│   datasize * 1.0e-9 = 0.0297496
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:199
+┌ Info: Loading AttentionCNN model
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/io.jl:108
+┌ Warning: *** AttentionCNN is using the following device: CUDADevice{Nothing}(nothing) 
+└ @ AttentionLayer /home/simone/.julia/packages/AttentionLayer/LUKLw/src/attention_cnn.jl:60
+┌ Info: Initialized CNN with 21620584 parameters
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:226
+┌ Info: CNN warm up run
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/extra_benchmark.jl:232

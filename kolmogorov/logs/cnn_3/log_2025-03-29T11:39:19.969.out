@@ -1,0 +1,189 @@
+┌ Info: Logging to file: /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/logs/cnn_3/log_2025-03-29T11:39:19.969.out
+│ 
+│ Starting at 2025-03-29T11:39:20.079.
+│ 
+│ Last commit:
+│ 
+│ commit 4d19c8cf97207aafbe8dff41b0ceaf2e8131c9ba
+│ Author: SarahAlidoost <f.alidoost@esciencecenter.nl>
+│ Date:   Thu Mar 27 15:59:37 2025 +0100
+│ 
+│     refactor, fix label of energy spectra
+│ 
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/Benchmark.jl:34
+┌ Info: # A-posteriori analysis: Forced turbulence (2D)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:78
+┌ Info: Loading packages
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:82
+┌ Warning: Pkg.installed() is deprecated
+└ @ Pkg /home/simone/.julia/juliaup/julia-1.11.4+0.x64.linux.gnu/share/julia/stdlib/v1.11/Pkg/src/Pkg.jl:787
+┌ Info: CoupledNODE already installed
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:85
+┌ Info: Running on CUDA
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:134
+┌ Info: CUDABackend(false, false)
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:151
+┌ Info: Creating DNS trajectory for seed 0x0c6a972a
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x0c6a972a_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x856e446e
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x856e446e_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x557cd282
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x557cd282_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x9638f7b8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x9638f7b8_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x02f51b45
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x02f51b45_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe410a059
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe410a059_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0xe728d69f
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0xe728d69f_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Creating DNS trajectory for seed 0x30df42ec
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:7
+┌ Info: Data file /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/data/seed=0x30df42ec_filter=FaceAverage()_nles=32.jld2 already exists. Skipping.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:16
+┌ Info: Data generated
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:176
+┌ Info: Data
+│   comptime = 170.9926199913025
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:192
+┌ Info: Data
+│   comptime / 60 = 2.8498769998550415
+│   datasize * 1.0e-9 = 0.0297496
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:193
+┌ Info: Loading CNN model
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/io.jl:105
+┌ Warning: *** CNN is using the following device: CUDADevice{Nothing}(nothing) 
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/models/cnn.jl:44
+┌ Info: Initialized CNN with 45696 parameters
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:219
+┌ Info: CNN warm up run
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:225
+┌ Info: Training a-priori
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:74
+┌ Info: Using closure cnn_3 on device device)
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:120
+┌ Info: Loading checkpoint from /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/priortraining/cnn_3/filter=FaceAverage()_nles=32_checkpoint.jld2.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:42
+┌ Info: Previous training reached epoch 300.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:45
+┌ Warning: Lux layers are stateless and hence don't participate in device transfers. Apply this function on the parameters and states generated using `LuxCore.setup`.
+└ @ LuxCoreMLDataDevicesExt /home/simone/.julia/packages/LuxCore/Av7WJ/ext/LuxCoreMLDataDevicesExt.jl:10
+┌ Info: Creating a priori callback
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:66
+┌ Info: No epochs left to train.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:160
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 2
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 3
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 4
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 5
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 6
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 7
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: Skipping a-priori training for iteration 1 != 8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:77
+┌ Info: Finished a-priori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:188
+┌ Info: 
+│   θ_cnn_prior .|> extrema = Tuple{Float32, Float32}[(-0.17637499, 0.17406495);;]
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:276
+┌ Info: Training a-posteriori
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:237
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Info: Loading checkpoint from /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/output/kolmogorov/posttraining/cnn_3/projectorder=Last_filter=FaceAverage()_nles=32_checkpoint.jld2.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:42
+┌ Info: Previous training reached epoch 20.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/checkpoints.jl:45
+┌ Info: Creating a posteriori callback
+└ @ NavierStokes /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/ext/NavierStokes/callback.jl:63
+┌ Info: No epochs left to train.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:315
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 2
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 3
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 4
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 5
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 6
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 7
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: Skipping a-posteriori training for iteration 1 != 8
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:240
+┌ Info: Finished a-posteriori training.
+└ @ Benchmark /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/src/train.jl:342
+┌ Info: 
+│   θ_cnn_post .|> extrema = Tuple{Float32, Float32}[(-0.17637499, 0.17406495);;;]
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:372
+┌ Info: Computing a-priori errors
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:438
+┌ Info: Computing a-posteriori errors
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:480
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Warning: A-posteriori loss function is using CUDADevice{Nothing}(nothing) device.
+└ @ CoupledNODE /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE.jl/src/loss/loss_posteriori.jl:176
+┌ Info: Computing divergence and kinetic energy
+│   projectorder = Last
+│   Φ = FaceAverage()
+│   nles = 32
+└ @ Main /home/simone/Dropbox/eScience_projects/DEEPDIEP-repos/CoupledNODE_Benchmark.jl/single_benchmark.jl:621
